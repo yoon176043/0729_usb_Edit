@@ -1,0 +1,16 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : My_AVRUSB500.brd                              )
+(    Software Version : 17.2S052                                      )
+(    Date/Time        : Mon Jul 29 16:02:33 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR: in SYMBOL DEFINITION name = AX400X100031
+  ERROR(SPMHDB-224): Symbol definition has no instances.
+
+0 warnings, 1 errors detected, 1 errors could be fixed.

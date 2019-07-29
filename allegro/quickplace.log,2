@@ -1,0 +1,53 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : AVRUSB500.brd                                 )
+(    Software Version : 17.2S052                                      )
+(    Date/Time        : Mon Jul 29 10:48:17 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  IC2 / ATMEGA8-DIL28_2_QUAD80M32WG900_ / QUAD80M32WG900 at (2.9210 41.4732)
+         Placed symbol:  U1 / FT232BM_2_QUAD80M32WG900_FT232B / QUAD80M32WG900 at (14.1605 41.4732)
+         Placed symbol:  J2 / CON4_7_MY_USB_USBA_ / MY_USB at (28.7822 41.2032)
+         Placed symbol:  J5 / CON5_JUMPER5_AVRUSB500_OUT_ / JUMPER5 at (36.5554 41.4732)
+         Placed symbol:  J1 / CON5_JUMPER5_BBPG_BITBANG_ / JUMPER5 at (49.4586 41.4732)
+         Placed symbol:  J6 / CON5_JUMPER5_FIRMWARE_IN_ / JUMPER5 at (62.3618 41.4732)
+ERROR:   Could not find symbol:  R1 / R_AX400X100_470_SML2015 / AX400X100
+         Placed symbol:  C9 / CAPACITOR NON-POL_CPCYL1D225L_4 / CPCYL1D225LS100031 at (75.6841 43.1623)
+ERROR:   Could not find symbol:  R14 / R_AX400X100_220_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R17 / R_AX400X100_470_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R19 / R_AX400X100_220_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R21 / R_AX400X100_220_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R3 / R_AX400X100_220_SML2015 / AX400X100
+         Placed symbol:  C2 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031 at (81.8055 43.1623)
+ERROR:   Could not find symbol:  R2 / R_AX400X100_220_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R18 / R_AX400X100_1K_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R16 / R_AX400X100_10K_SML2015 / AX400X100
+         Placed symbol:  C12 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031 at (87.9269 43.1623)
+ERROR:   Could not find symbol:  R6 / R_AX400X100_27_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R7 / R_AX400X100_1.5K_SML2015 / AX400X100
+ERROR:   Could not find symbol:  R8 / R_AX400X100_2.2_SML2015 / AX400X100
+ERROR:   Could not find symbol:  Y2 / ZTA_RAD450X200L_6MHZ_ / RAD450X200L
+ERROR:   Could not find symbol:  Y3 / ZTA_RAD450X200L_3.6864MHZ_ / RAD450X200L
+ERROR:   Could not find symbol:  R4 / R_AX400X100_220_SML2015 / AX400X100
+         Placed symbol:  C5 / CAPACITOR NON-POL_CPCYL1D225L_4 / CPCYL1D225LS100031 at (94.0483 43.1623)
+         Placed symbol:  C3 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031 at (100.1697 43.1623)
+ERROR:   Could not find symbol:  R20 / R_AX400X100_1K_SML2015 / AX400X100
+         Placed symbol:  C1 / CAPACITOR NON-POL_CPCYL1D225LS1 / CPCYL1D225LS100031 at (1.8923 54.4018)
+         Placed symbol:  C4 / CAPACITOR NON-POL_CPCYL1D225LS1 / CPCYL1D225LS100031 at (8.0137 54.4018)
+         Placed symbol:  C10 / CAPACITOR NON-POL_CPCYL1D225L_1 / CPCYL1D225LS100031 at (14.1351 54.4018)
+         Placed symbol:  C6 / CAPACITOR POL_CPCYL1D225LS10003 / CPCYL1D225LS100031 at (20.2565 54.4018)
+         Placed symbol:  D2 / LED_CYLD250LS125031_LED_ / CYLD250LS125031 at (26.3779 54.7193)
+ERROR:   Could not find symbol:  R5 / R_AX400X100_27_SML2015 / AX400X100
+         Placed symbol:  C11 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031 at (33.1343 54.4018)
+
+
+Placed 17 of 34 applicable (34 total) symbols.
+
+-----------------------------------------------------------------------
+

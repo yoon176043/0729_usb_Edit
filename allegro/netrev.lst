@@ -1,0 +1,104 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : AVRUSB500.brd                                 )
+(    Software Version : 17.2S052                                      )
+(    Date/Time        : Mon Jul 29 11:11:19 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\USER\DESKTOP\WORK\0729\USB-MASTER\USB-MASTER\allegro'
+Design Directory:            'C:/Users/user/Desktop/work/0729/USB-master/USB-master/allegro'
+Old design name:             'C:/Users/user/Desktop/work/0729/USB-master/USB-master/allegro/AVRUSB500.brd'
+New design name:             'C:/Users/user/Desktop/work/0729/USB-master/USB-master/allegro/AVRUSB500.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\USER\DESKTOP\WORK\0729\USB-MASTER\USB-MASTER\allegro C:\Users\user\Desktop\work\0729\USB-master\USB-master\allegro\AVRUSB500.brd C:\Users\user\Desktop\work\0729\USB-master\USB-master\allegro\AVRUSB500.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/USER/DESKTOP/WORK/0729/USB-MASTER/USB-MASTER/allegro/pstchip.dat 
+   Finished reading C:/USERS/USER/DESKTOP/WORK/0729/USB-MASTER/USB-MASTER/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/USERS/USER/DESKTOP/WORK/0729/USB-MASTER/USB-MASTER/allegro/pstxprt.dat 
+   Finished reading C:/USERS/USER/DESKTOP/WORK/0729/USB-MASTER/USB-MASTER/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/USER/DESKTOP/WORK/0729/USB-MASTER/USB-MASTER/allegro/pstxnet.dat 
+   Finished reading C:/USERS/USER/DESKTOP/WORK/0729/USB-MASTER/USB-MASTER/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'JEDECMS026' used by RefDes U1 for device 'FT232BM_2_QUAD80M32WG900_FT232B' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old sy
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/symbols 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\MY_LIB\pakegesimbol\ 
+           C:\Cadence\SPB_16.5\tools\capture\My_lib\pakegesimbol\ 
+           C:\Users\user\Desktop\work\orcad\usb\avrusb500_r02\symbols\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/padstacks 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:\USERS\USER\DESKTOP\WORK\PCB_LIB\PAKEGESIMBOL\ 
+           C:\Cadence\SPB_16.5\tools\capture\My_lib\pakegesimbol\ 
+           C:\Cadence\SPB_16.5\tools\capture\My_lib\padstack\ 
+           C:\Users\user\Desktop\work\orcad\usb\avrusb500_r02\symbols\ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jul 29 11:11:19 2019
+   DESIGN NAME : 'MY_AVRUSB500'
+   PACKAGING ON Feb 18 2019 18:33:40
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  1 warnings detected
+
+cpu time      0:02:50
+elapsed time  0:00:02
+
